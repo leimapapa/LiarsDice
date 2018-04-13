@@ -26,122 +26,122 @@ var liarsDice6 = document.getElementById("liarsDice6");
 
 switch(randomNumber1) {
   case 1:
-  liarsDice1.innerHTML = "<img src='dice/die1.png'/>";
+  liarsDice1.innerHTML = "<img class='dieStyle' src='dice/die1.png'/>";
   break;
   case 2:
-  liarsDice1.innerHTML = "<img src='dice/die2.png'/>";
+  liarsDice1.innerHTML = "<img class='dieStyle' src='dice/die2.png'/>";
   break;
   case 3:
-  liarsDice1.innerHTML = "<img src='dice/die3.png'/>";
+  liarsDice1.innerHTML = "<img class='dieStyle' src='dice/die3.png'/>";
   break;
   case 4:
-  liarsDice1.innerHTML = "<img src='dice/die4.png'/>";
+  liarsDice1.innerHTML = "<img class='dieStyle' src='dice/die4.png'/>";
   break;
   case 5:
-  liarsDice1.innerHTML = "<img src='dice/die5.png'/>";
+  liarsDice1.innerHTML = "<img class='dieStyle' src='dice/die5.png'/>";
   break;
   case 6:
-  liarsDice1.innerHTML = "<img src='dice/die6.png'/>";
+  liarsDice1.innerHTML = "<img class='dieStyle' src='dice/die6.png'/>";
   break;
 }
 switch(randomNumber2) {
   case 1:
-  liarsDice2.innerHTML = "<img src='dice/die1.png'/>";
+  liarsDice2.innerHTML = "<img class='dieStyle' src='dice/die1.png'/>";
   break;
   case 2:
-  liarsDice2.innerHTML = "<img src='dice/die2.png'/>";
+  liarsDice2.innerHTML = "<img class='dieStyle' src='dice/die2.png'/>";
   break;
   case 3:
-  liarsDice2.innerHTML = "<img src='dice/die3.png'/>";
+  liarsDice2.innerHTML = "<img class='dieStyle' src='dice/die3.png'/>";
   break;
   case 4:
-  liarsDice2.innerHTML = "<img src='dice/die4.png'/>";
+  liarsDice2.innerHTML = "<img class='dieStyle' src='dice/die4.png'/>";
   break;
   case 5:
-  liarsDice2.innerHTML = "<img src='dice/die5.png'/>";
+  liarsDice2.innerHTML = "<img class='dieStyle' src='dice/die5.png'/>";
   break;
   case 6:
-  liarsDice2.innerHTML = "<img src='dice/die6.png'/>";
+  liarsDice2.innerHTML = "<img class='dieStyle' src='dice/die6.png'/>";
   break;
 }
 switch(randomNumber3) {
   case 1:
-  liarsDice3.innerHTML = "<img src='dice/die1.png'/>";
+  liarsDice3.innerHTML = "<img class='dieStyle' src='dice/die1.png'/>";
   break;
   case 2:
-  liarsDice3.innerHTML = "<img src='dice/die2.png'/>";
+  liarsDice3.innerHTML = "<img class='dieStyle' src='dice/die2.png'/>";
   break;
   case 3:
-  liarsDice3.innerHTML = "<img src='dice/die3.png'/>";
+  liarsDice3.innerHTML = "<img class='dieStyle' src='dice/die3.png'/>";
   break;
   case 4:
-  liarsDice3.innerHTML = "<img src='dice/die4.png'/>";
+  liarsDice3.innerHTML = "<img class='dieStyle' src='dice/die4.png'/>";
   break;
   case 5:
-  liarsDice3.innerHTML = "<img src='dice/die5.png'/>";
+  liarsDice3.innerHTML = "<img class='dieStyle' src='dice/die5.png'/>";
   break;
   case 6:
-  liarsDice3.innerHTML = "<img src='dice/die6.png'/>";
+  liarsDice3.innerHTML = "<img class='dieStyle' src='dice/die6.png'/>";
   break;
 }
 switch(randomNumber4) {
   case 1:
-  liarsDice4.innerHTML = "<img src='dice/die1.png'/>";
+  liarsDice4.innerHTML = "<img class='dieStyle' src='dice/die1.png'/>";
   break;
   case 2:
-  liarsDice4.innerHTML = "<img src='dice/die2.png'/>";
+  liarsDice4.innerHTML = "<img class='dieStyle' src='dice/die2.png'/>";
   break;
   case 3:
-  liarsDice4.innerHTML = "<img src='dice/die3.png'/>";
+  liarsDice4.innerHTML = "<img class='dieStyle' src='dice/die3.png'/>";
   break;
   case 4:
-  liarsDice4.innerHTML = "<img src='dice/die4.png'/>";
+  liarsDice4.innerHTML = "<img class='dieStyle' src='dice/die4.png'/>";
   break;
   case 5:
-  liarsDice4.innerHTML = "<img src='dice/die5.png'/>";
+  liarsDice4.innerHTML = "<img class='dieStyle' src='dice/die5.png'/>";
   break;
   case 6:
-  liarsDice4.innerHTML = "<img src='dice/die6.png'/>";
+  liarsDice4.innerHTML = "<img class='dieStyle' src='dice/die6.png'/>";
   break;
 }
 switch(randomNumber5) {
   case 1:
-  liarsDice5.innerHTML = "<img src='dice/die1.png'/>";
+  liarsDice5.innerHTML = "<img class='dieStyle' src='dice/die1.png'/>";
   break;
   case 2:
-  liarsDice5.innerHTML = "<img src='dice/die2.png'/>";
+  liarsDice5.innerHTML = "<img class='dieStyle' src='dice/die2.png'/>";
   break;
   case 3:
-  liarsDice5.innerHTML = "<img src='dice/die3.png'/>";
+  liarsDice5.innerHTML = "<img class='dieStyle' src='dice/die3.png'/>";
   break;
   case 4:
-  liarsDice5.innerHTML = "<img src='dice/die4.png'/>";
+  liarsDice5.innerHTML = "<img class='dieStyle' src='dice/die4.png'/>";
   break;
   case 5:
-  liarsDice5.innerHTML = "<img src='dice/die5.png'/>";
+  liarsDice5.innerHTML = "<img class='dieStyle' src='dice/die5.png'/>";
   break;
   case 6:
-  liarsDice5.innerHTML = "<img src='dice/die6.png'/>";
+  liarsDice5.innerHTML = "<img class='dieStyle' src='dice/die6.png'/>";
   break;
 }
 switch(randomNumber6) {
   case 1:
-  liarsDice6.innerHTML = "<img src='dice/die1.png'/>";
+  liarsDice6.innerHTML = "<img class='dieStyle' src='dice/die1.png'/>";
   break;
   case 2:
-  liarsDice6.innerHTML = "<img src='dice/die2.png'/>";
+  liarsDice6.innerHTML = "<img class='dieStyle' src='dice/die2.png'/>";
   break;
   case 3:
-  liarsDice6.innerHTML = "<img src='dice/die3.png'/>";
+  liarsDice6.innerHTML = "<img class='dieStyle' src='dice/die3.png'/>";
   break;
   case 4:
-  liarsDice6.innerHTML = "<img src='dice/die4.png'/>";
+  liarsDice6.innerHTML = "<img class='dieStyle' src='dice/die4.png'/>";
   break;
   case 5:
-  liarsDice6.innerHTML = "<img src='dice/die5.png'/>";
+  liarsDice6.innerHTML = "<img class='dieStyle' src='dice/die5.png'/>";
   break;
   case 6:
-  liarsDice6.innerHTML = "<img src='dice/die6.png'/>";
+  liarsDice6.innerHTML = "<img class='dieStyle' src='dice/die6.png'/>";
   break;
 }
 
