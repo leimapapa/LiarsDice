@@ -10,12 +10,19 @@ if ($("#loser").hasClass("bigger")){
   
   }
   
-var randomNumber1 = Math.round(Math.random() * 5) + 1;
-var randomNumber2 = Math.round(Math.random() * 5) + 1;
-var randomNumber3 = Math.round(Math.random() * 5) + 1;
-var randomNumber4 = Math.round(Math.random() * 5) + 1;
-var randomNumber5 = Math.round(Math.random() * 5) + 1;
-var randomNumber6 = Math.round(Math.random() * 5) + 1;
+function getRandom(min, max) {
+	min = Math.ceil(min);
+	max = Math.floor(max);
+	return Math.floor(Math.random() * (max - min + 1)) + min; 
+	//The maximum is inclusive and the minimum is inclusive 
+	}
+  
+var randomNumber1 = getRandom(1,6);
+var randomNumber2 = getRandom(1,6);
+var randomNumber3 = getRandom(1,6);
+var randomNumber4 = getRandom(1,6);
+var randomNumber5 = getRandom(1,6);
+var randomNumber6 = getRandom(1,6);
 
 var liarsDice1 = document.getElementById("liarsDice1");
 var liarsDice2 = document.getElementById("liarsDice2");
