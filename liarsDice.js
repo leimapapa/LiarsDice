@@ -3,10 +3,10 @@ function liarsDice(){
 var resetGameBoard = document.getElementById("liarsDiceBoard");
 var bonesRoller = document.getElementById("bonesRoller");
 
-if ($("#loser").hassClass("bigger")){
+if ($("#loser").hasClass("bigger")){
 
-  resetGameBoard.innerHTML = "INSERT GAME BOARD DIV HERE";
-  bonesRoller.innerHTML = "Roll Them Bones<br/><i class="glyphicon glyphicon-repeat"></i>";
+  resetGameBoard.innerHTML = '<div id="liar1" class="col-xs-4 inTheGame"><div id="liarsDice1" class="bigger"><i class="glyphicon glyphicon-adjust" title="dice"></i></div></div><div id="liar2" class="col-xs-4 inTheGame"><div id="liarsDice2" class="bigger"><i class="glyphicon glyphicon-adjust" title="dice"></i></div></div><div id="liar3" class="col-xs-4 inTheGame"><div id="liarsDice3" class="bigger"><i class="glyphicon glyphicon-adjust" title="dice"></i></div></div><div id="liar4" class="col-xs-4 inTheGame"><div id="liarsDice4" class="bigger"><i class="glyphicon glyphicon-adjust" title="dice"></i></div></div><div id="liar5" class="col-xs-4 inTheGame"><div id="liarsDice5" class="bigger"><i class="glyphicon glyphicon-adjust" title="dice"></i></div></div><div id="liar6" class="col-xs-4 inTheGame"><div id="liarsDice6" class="bigger"><i class="glyphicon glyphicon-adjust" title="dice"></i></div></div>'";
+  bonesRoller.innerHTML = "Roll Them Bones<br/><i class='glyphicon glyphicon-repeat'></i>";
   
   }
   
