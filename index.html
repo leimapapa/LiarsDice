@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Liars Dice</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="libs/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="libs/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src=".libs/bootstrap.min.js"></script>
+
+    <!-- Liars Dice JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</head>
+
+<body>
+
+<h4 title="Liars Dice">Liars Dice</h4>
+
+<div class="well">
+
+  <h3><span class="label label-default">Roll Them Bones</span></h3>
+  
+  <br/>
+  
+  <div id="liarsDiceBoard" class="col-xs-12 text-center">
+    <div id="liar1" class="col-xs-4 inTheGame">
+      <div id="liarsDice1" class="bigger">
+        <i class="glyphicon glyphicon-adjust" title="dice"></i>
+      </div>
+    </div>
+    
+    <div id="liar2" class="col-xs-4 inTheGame">
+      <div id="liarsDice2" class="bigger">
+        <i class="glyphicon glyphicon-adjust" title="dice"></i>
+      </div>
+    </div>
+    
+    <div id="liar3" class="col-xs-4 inTheGame">
+      <div id="liarsDice3" class="bigger">
+        <i class="glyphicon glyphicon-adjust" title="dice"></i>
+      </div>
+    </div>
+    
+    <div id="liar4" class="col-xs-4 inTheGame">
+      <div id="liarsDice4" class="bigger">
+        <i class="glyphicon glyphicon-adjust" title="dice"></i>
+      </div>
+    </div>
+    
+    <div id="liar5" class="col-xs-4 inTheGame">
+      <div id="liarsDice5" class="bigger">
+        <i class="glyphicon glyphicon-adjust" title="dice"></i>
+      </div>
+    </div>
+    
+    <div id="liar6" class="col-xs-4 inTheGame">
+      <div id="liarsDice6" class="bigger">
+        <i class="glyphicon glyphicon-adjust" title="dice"></i>
+      </div>
+    </div>
+   
+   </div> <!--END board-->
+   <br/><br/><br/><br/>
+   
+   <button id="bonesRoller" class="btn btn-success btn-lg btn-block" onclick="liarsDice()" title="Roll them bones yo">Roll Them Bones<br/><i class="glyphicon glyphicon-repeat"></i></button>
+   <br/>
+   <button id="loseDie" class="btn btn-danger btn-lg" onclick="loseDie()" title="LLLLLLLiar!!!">Liar! Lose a Die<br/><i class="glyphicon glyphicon-minus"></i></button>
+
+</div><!--END well-->
+
+</body>
+
+</html>
